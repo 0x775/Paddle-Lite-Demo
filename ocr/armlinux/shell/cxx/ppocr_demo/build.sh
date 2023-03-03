@@ -25,7 +25,7 @@ echo "make successful!"
 cd ../../
 if [ ! -d "./ppocr_demo" ]; then
 mkdir ppocr_demo
-fils
+fi
 
 cp ./src/ppocr_demo ./ppocr_demo
 cp -r ../../../../assets/config.txt ./ppocr_demo
